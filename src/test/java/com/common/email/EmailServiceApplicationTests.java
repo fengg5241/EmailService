@@ -26,8 +26,14 @@ public class EmailServiceApplicationTests {
 	@Test
 	public void sendEmail() {
 		final String username = "feng5241@gmail.com";
-        final String password = "2462205532";
-        
+        final String password = "ekheifuycgrbueuy";
+
+//        final String username = "easypeasychinesesg@gmail.com";
+//        final String password = "Easy2020";
+
+//        final String username = "easymandarinsg@gmail.com";
+//        final String password = "Easy2020";
+
         Properties prop = new Properties();
 		prop.put("mail.smtp.host", "smtp.gmail.com");
         prop.put("mail.smtp.port", "587");
